@@ -1,0 +1,25 @@
+html, body{
+    background-color: rgb(255, 132, 75);
+    padding: 0;
+    height: 100vh;  
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    padding: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.art{
+    padding: 0%;
+    margin-left: 100px;
+    width: 500px;
+    height: auto;
+}
+
+img, p{
+    display: flex;
+}

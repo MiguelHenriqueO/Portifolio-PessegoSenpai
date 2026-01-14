@@ -1,16 +1,16 @@
-html, body{
-    background-color: rgb(255, 132, 75);
-    padding: 0;
-    height: 100vh;  
-    margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.container{
-    padding: 20px;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-color: #ba011a;
+    font-family: 'Montserrat';
+    color: #e44f0a;
 }
 
 .art{
@@ -18,8 +18,30 @@ html, body{
     margin-left: 100px;
     width: 500px;
     height: auto;
+    border-radius: 5px;
 }
 
-img, p{
+p{
     display: flex;
+    margin-right: 250px;
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+#title{
+    color: #fcf5af;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Limelight&family'
+}
+
+.box{
+    padding: 20px;
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #fcf5af;
+    border-radius: 10px;
+    
 }

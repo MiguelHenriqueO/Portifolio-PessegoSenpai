@@ -13,18 +13,33 @@ html, body{
     color: #e44f0a;
 }
 
-.art{
-    padding: 0%;
+.artR{
+    padding: 5px;
     margin-left: 100px;
     width: 500px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
-p{
+.artL{
+    padding: 5px;
+    margin-right: 100px;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.rightP{
     display: flex;
     margin-right: 250px;
     margin-left: 10px;
+    font-size: x-large;
+}
+
+.leftP{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 250px;
     font-size: x-large;
 }
 
@@ -37,11 +52,28 @@ p{
 }
 
 .box{
-    padding: 20px;
-    margin: 80px;
+    padding: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     background-color: #fcf5af;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+.social{
+    padding: auto;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: #400224;
+}
+.socialIcon{
+    padding: 5px;
+    margin-right: 100px;
     
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
 }

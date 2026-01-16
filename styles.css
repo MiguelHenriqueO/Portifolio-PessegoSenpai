@@ -55,7 +55,7 @@ html, body{
     padding: 80px;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     background-color: #fcf5af;
@@ -64,15 +64,12 @@ html, body{
 
 .social{
     padding: auto;
-    margin-top: 200px;
     display: flex;
     justify-content: center;
     background-color: #400224;
 }
 .socialIcon{
-    padding: 5px;
-    margin-right: 100px;
-    
+    padding: 25px;
     width: 100px;
     height: auto;
     border-radius: 10px;

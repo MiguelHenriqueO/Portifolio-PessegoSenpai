@@ -13,34 +13,20 @@ html, body{
     color: #e44f0a;
 }
 
-.artR{
-    padding: 5px;
-    margin-left: 100px;
-    width: 500px;
+.artR, .artL {
+    max-width: 100%;
+    width: 400px;
     height: auto;
     border-radius: 10px;
+    flex-shrink: 0;
 }
 
-.artL{
-    padding: 5px;
-    margin-right: 100px;
-    width: 500px;
-    height: auto;
-    border-radius: 10px;
-}
+.rightP, .leftP {
+    font-size: 1.1rem;
+    max-width: 600px;
+    flex: 1;
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
 
-.rightP{
-    display: flex;
-    margin-right: 250px;
-    margin-left: 10px;
-    font-size: x-large;
-}
-
-.leftP{
-    display: flex;
-    margin-right: 10px;
-    margin-left: 250px;
-    font-size: x-large;
 }
 
 #title{
@@ -48,18 +34,22 @@ html, body{
     padding: 20px;
     display: flex;
     justify-content: center;
-    font-family: 'Limelight&family'
+    font-family: 'Limelight', cursive;
+
 }
 
-.box{
-    padding: 80px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 50px;
+.box {
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 1100px;
+
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
     background-color: #fcf5af;
-    border-radius: 5px;
+    border-radius: 10px;
+    gap: 40px;
 }
 
 .social{
@@ -73,4 +63,20 @@ html, body{
     width: 100px;
     height: auto;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .artR, .artL {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .rightP, .leftP {
+        margin: 0;
+    }
 }
